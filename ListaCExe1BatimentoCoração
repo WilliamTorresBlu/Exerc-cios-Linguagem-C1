@@ -7,10 +7,10 @@
 		int Ano, resultado;
 		
 		setlocale(LC_ALL, "portuguese");
-		printf("Quantos anos deseja saber as batidas do seu coraÁ„o?\t");
+		printf("Quantos anos deseja saber as batidas do seu cora√ß√£o?\t");
 		scanf("%d", &resultado);
 		Ano = 31536000*resultado;
-		printf ("O seu coraÁ„o bater· %d vezes\n", Ano);
+		printf ("O seu cora√ß√£o bater√° %d vezes\n", Ano);
 		
 		system ("pause");
 		return 0;
