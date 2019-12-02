@@ -18,19 +18,19 @@ int main (void){
 		scanf("%d", &D);
 		if (A>B && A>C && A>D) {
 			resultado = B+C+D;
-			printf("A soma dos 3 menores é:%d\n\n", resultado);	
+			printf("A soma dos 3 menores Ã©:%d\n\n", resultado);	
 		}
 		if (B>A && B>C && B>D) {
 			resultado = A+C+D;
-			printf("A soma dos 3 menores é:%d\n\n", resultado);	
+			printf("A soma dos 3 menores Ã©:%d\n\n", resultado);	
 		}
 			if (C>A && C>B && C>D) {
 			resultado = A+B+D;
-			printf("A soma dos 3 menores é:%d\n\n", resultado);
+			printf("A soma dos 3 menores Ã©:%d\n\n", resultado);
 		}
 			if (D>A && D>B && D>C) {
 			resultado = A+B+C;
-			printf("A soma dos 3 menores é:%d\n\n", resultado);
+			printf("A soma dos 3 menores Ã©:%d\n\n", resultado);
 		}
 		system ("pause");
 		return 0;
