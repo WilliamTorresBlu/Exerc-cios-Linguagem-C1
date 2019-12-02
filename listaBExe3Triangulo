@@ -4,12 +4,12 @@
 
 int main (void)
 
-//Vari·veis
+//Vari√°veis
 
 {
 	float L1, L2, L3;
 	
-//InÌcio
+//In√≠cio
 	
 	setlocale(LC_ALL, "Portuguese_Brazil");
 	
@@ -24,37 +24,37 @@ int main (void)
 	
 	if(L1==0 && L2==0 && L3==0)
 	{
-		printf("Isso n„o È um tri‚ngulo. \n");
+		printf("Isso n√£o √© um tri√¢ngulo. \n");
 	}
 	
 	if (L1+L2 < L3 || L2+L3 < L1 || L3+L1 < L2)
 	{
-		printf("Isso n„o È um tri‚ngulo. \n");
+		printf("Isso n√£o √© um tri√¢ngulo. \n");
 	}
 	
 		if (L1==L2 && L2==L3 && L3==L1)
 		{
-			printf("Isso È um tri‚ngulo Equil·tero. \n");
+			printf("Isso √© um tri√¢ngulo Equil√°tero. \n");
 		}
 	
 				if ((L1==L2) && (L2!=L3) && (L3!=L1))
 				{
-					printf("Isso È um tri‚ngulo IsÛceles. \n");
+					printf("Isso √© um tri√¢ngulo Is√≥celes. \n");
 				}
 	
 				if ((L1!=L2) && (L2==L3) && (L3!=L1))
 				{
-					printf("Isso È um tri‚ngulo IsÛceles. \n");
+					printf("Isso √© um tri√¢ngulo Is√≥celes. \n");
 				}
 		
 				if ((L1!=L2) && (L2!=L3) && (L3==L1))
 				{
-					printf("Isso È um tri‚ngulo IsÛceles. \n");
+					printf("Isso √© um tri√¢ngulo Is√≥celes. \n");
 				}
 		
 	if (L1!=L2 && L2!=L3 && L3!=L1)
 	{
-		printf("Isso È um tri‚ngulo Escaleno. \n");
+		printf("Isso √© um tri√¢ngulo Escaleno. \n");
 	}
 		
 	system("pause");
