@@ -14,8 +14,8 @@
 		printf("Qual a quantidade de chuva em polegada?\t");
 		scanf("%f", &polegada);
 		milimetro = 25.4*polegada;
-		printf("A temperatura convertida em Celsius é: %.2f\n ", celsius);
-		printf("A quantidade de chuva em milimetros é: %.2f\n\n", milimetro);
+		printf("A temperatura convertida em Celsius Ã©: %.2f\n ", celsius);
+		printf("A quantidade de chuva em milimetros Ã©: %.2f\n\n", milimetro);
 		
 		system ("pause");
 		return 0;
